@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuUpdateProfileId"
+        android:title="@string/update_profile" />
+    <item
+        android:id="@+id/menuChangePasswordId"
+        android:title="@string/change_password" />
+    <item
+        android:id="@+id/menuDeleteProfileId"
+        android:title="@string/delete_profile" />
+    <item
+        android:id="@+id/menuLogOutId"
+        android:title="@string/logout" />
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".EditProfileImage"
+    android:layout_gravity="center">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageViewId"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/image_placeholder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageChooserId"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_add_a_photo_24"
+        app:layout_constraintBottom_toBottomOf="@+id/circleImageViewId"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageViewId"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/saveImageId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/save_image"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageViewId"
+        app:layout_constraintStart_toStartOf="@+id/circleImageViewId"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageViewId" />
+
+    <ProgressBar
+        android:id="@+id/progressBarId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/saveImageId"
+        app:layout_constraintStart_toStartOf="@+id/saveImageId"
+        app:layout_constraintTop_toBottomOf="@+id/saveImageId" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
