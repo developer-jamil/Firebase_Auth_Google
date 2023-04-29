@@ -14,7 +14,7 @@ Firebase auth with google
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
     <img src="/images/ss_six.jpg" alt="UI Design" style="width: 23%; height: auto;">
     <img src="/images/ss_seven.jpg" alt="UI Design" style="width: 23%; height: auto;">
-    <img src="/images/ss-eight.jpg" alt="UI Design" style="width: 23%; height: auto;">
+    <img src="/images/ss_eight.jpg" alt="UI Design" style="width: 23%; height: auto;">
     <img src="/images/ss_nine.jpg" alt="UI Design" style="width: 23%; height: auto;">
 </div>
 
