@@ -1,8 +1,6 @@
 # Firebase_Auth_Google
 Firebase auth with google
 
-# No_Internet_UI
-
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
     <img src="/images/ss_one.jpg" alt="UI Design" style="width: 18%; height: auto;">
     <img src="/images/ss_two.jpg" alt="UI Design" style="width: 18%; height: auto;">
